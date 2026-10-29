@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Floating Frame</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        iframe {
+            width: 45%;
+            height: 300px;
+            border: 2px solid black;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Floating Frame</h1>
+    <div class="container">
+        <iframe src="13.html" title="Frame 1"></iframe>
+        <iframe src="c2.html" title="Frame 2"></iframe>
+    </div>
+</body>
+</html>
